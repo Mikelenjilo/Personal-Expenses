@@ -31,7 +31,6 @@ class MyHomePage extends StatelessWidget {
       date: DateTime.now(),
     ),
   ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -88,7 +87,7 @@ class MyHomePage extends StatelessWidget {
                             ),
                           ),
                           Text(
-                            DateFormat('EEEE').format(tx.date),
+                            DateFormat('EEEE, y-M-d').format(tx.date),
                             style: TextStyle(
                               color: Colors.grey,
                             ),
