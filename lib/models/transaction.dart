@@ -13,5 +13,3 @@ class Transaction {
     @required this.date,
   });
 }
-
-//* Add quantity integer to add multiple products.
